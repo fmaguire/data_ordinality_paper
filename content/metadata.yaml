@@ -1,27 +1,30 @@
 ---
-title: "Manuscript Title"
+title: "Data Ordinality: An Important Concept in Reducing Medical and Research Errors"
 keywords:
   - markdown
   - publishing
   - manubot
-lang: en-US
+lang: en-GB
 author_info:
   -
-    github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+    github: fmaguire
+    name: Finlay Maguire
+    initials: fm
+    orcid: 0000-0002-1203-9514
+    twitter: fmaguire
+    email: finlaymaguire@gmail.com
     affiliations:
-      - Department of Something, University of Whatever
-    funders: Grant XXXXXXXX
+      - Faculty of Computer Science, Dalhousie University
+    funders: Donald Hill Family Fellowship in Computer Science
   -
-    github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+    name: Michael A. Graven
+    initials: MAG
+    email: helping.where.possible@gmail.com
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Department of Paediatrics, Faculty of Medicine, Dalhousie University
+  -
+    name: Noni E. MacDonald 
+    initials: NEM
+    email: Noni.MacDonald@dal.ca
+    affiliations:
+      - Department of Paediatrics, Faculty of Medicine, Dalhousie University
