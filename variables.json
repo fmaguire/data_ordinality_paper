@@ -1,44 +1,51 @@
 {
-  "date": "October 5, 2019",
+  "date": "October 7, 2019",
   "authors": [
     {
-      "github": "johndoe",
-      "name": "John Doe",
-      "initials": "JD",
-      "orcid": "XXXX-XXXX-XXXX-XXXX",
-      "twitter": "johndoe",
-      "email": "john.doe@something.com",
+      "github": "fmaguire",
+      "name": "Finlay Maguire",
+      "initials": "fm",
+      "orcid": "0000-0002-1203-9514",
+      "twitter": "fmaguire",
+      "email": "finlaymaguire@gmail.com",
       "affiliations": [
-        "Department of Something, University of Whatever"
+        "Faculty of Computer Science, Dalhousie University"
       ],
-      "funders": "Grant XXXXXXXX",
+      "funders": "Donald Hill Family Fellowship in Computer Science",
       "affiliation_numbers": [
         1
       ]
     },
     {
-      "github": "janeroe",
-      "name": "Jane Roe",
-      "initials": "JR",
-      "orcid": "XXXX-XXXX-XXXX-XXXX",
-      "email": "jane.roe@whatever.edu",
+      "name": "Michael A. Graven",
+      "initials": "MAG",
+      "email": "helping.where.possible@gmail.com",
       "affiliations": [
-        "Department of Something, University of Whatever",
-        "Department of Whatever, University of Something"
+        "Department of Paediatrics, Faculty of Medicine, Dalhousie University"
       ],
       "affiliation_numbers": [
-        1,
+        2
+      ]
+    },
+    {
+      "name": "Noni E. MacDonald",
+      "initials": "NEM",
+      "email": "Noni.MacDonald@dal.ca",
+      "affiliations": [
+        "Department of Paediatrics, Faculty of Medicine, Dalhousie University"
+      ],
+      "affiliation_numbers": [
         2
       ]
     }
   ],
   "affiliations": [
     {
-      "affiliation": "Department of Something, University of Whatever",
+      "affiliation": "Faculty of Computer Science, Dalhousie University",
       "affiliation_number": 1
     },
     {
-      "affiliation": "Department of Whatever, University of Something",
+      "affiliation": "Department of Paediatrics, Faculty of Medicine, Dalhousie University",
       "affiliation_number": 2
     }
   ],
@@ -47,16 +54,18 @@
     "repo_slug": "fmaguire/data_ordinality_paper",
     "repo_owner": "fmaguire",
     "repo_name": "data_ordinality_paper",
-    "commit": "6bdee9e6da72e8039085d1b9ecb81c366d9e83ad",
-    "triggering_commit": "6bdee9e6da72e8039085d1b9ecb81c366d9e83ad",
-    "build_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/builds/130548460",
-    "job_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/jobs/242467781",
-    "manuscript_url": "https://fmaguire.github.io/data_ordinality_paper/v/6bdee9e6da72e8039085d1b9ecb81c366d9e83ad/"
+    "commit": "20551e02eba049de5bdbe027a9378bc44fae7cf7",
+    "triggering_commit": "20551e02eba049de5bdbe027a9378bc44fae7cf7",
+    "build_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/builds/130723607",
+    "job_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/jobs/242974648",
+    "manuscript_url": "https://fmaguire.github.io/data_ordinality_paper/v/20551e02eba049de5bdbe027a9378bc44fae7cf7/"
   },
   "manuscript_stats": {
     "reference_counts": {
-      "total": 0
+      "doi": 6,
+      "pmid": 3,
+      "total": 9
     },
-    "word_count": 236
+    "word_count": 1062
   }
 }
