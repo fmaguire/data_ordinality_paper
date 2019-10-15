@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/fmaguire/data_ordinality_paper/tree/gh-pages) branch hosts the contents of this directory at https://fmaguire.github.io/data_ordinality_paper/.
-The permalink for this webpage version is https://fmaguire.github.io/data_ordinality_paper/v/09682846809bc2a34141ea0ed2e9415f6c9b7b48/.
+The permalink for this webpage version is https://fmaguire.github.io/data_ordinality_paper/v/7614ffafd8fc53883eeb97669e2b162214954635/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://fmaguire.github.io/data_ordinality_paper/v/freeze/.
 
 ## Files
@@ -36,4 +36,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`09682846809bc2a34141ea0ed2e9415f6c9b7b48`](https://github.com/fmaguire/data_ordinality_paper/commit/09682846809bc2a34141ea0ed2e9415f6c9b7b48).
+[`7614ffafd8fc53883eeb97669e2b162214954635`](https://github.com/fmaguire/data_ordinality_paper/commit/7614ffafd8fc53883eeb97669e2b162214954635).
