@@ -19,9 +19,9 @@ title: 'Data Ordinality: An Important Concept in Reducing Medical and Research E
 
 <small><em>
 This manuscript
-([permalink](https://fmaguire.github.io/data_ordinality_paper/v/09682846809bc2a34141ea0ed2e9415f6c9b7b48/))
+([permalink](https://fmaguire.github.io/data_ordinality_paper/v/7614ffafd8fc53883eeb97669e2b162214954635/))
 was automatically generated
-from [fmaguire/data_ordinality_paper@0968284](https://github.com/fmaguire/data_ordinality_paper/tree/09682846809bc2a34141ea0ed2e9415f6c9b7b48)
+from [fmaguire/data_ordinality_paper@7614ffa](https://github.com/fmaguire/data_ordinality_paper/tree/7614ffafd8fc53883eeb97669e2b162214954635)
 on October 15, 2019.
 </em></small>
 
@@ -57,10 +57,10 @@ on October 15, 2019.
 
 Adverse effects of medical treatment are responsible for 2.8% of all deaths in the US [@140XZkS8r].
 A major cause of these adverse medical outcomes is error in the transmission and communication of information between healthcare workers (HCW) [@1EgScuf8f].
-These errors are very common, with manually entered pathology data having errors in 76% of patients records [@UwDcTEu8], and transcription errors (misinterpreation of written/spoken orders and mistakes copying prescriptions) responsible for 2-14% of medication errors [@DhnNgERL].
+These errors are very common, with manually entered pathology data having errors in 76% of patients records [@UwDcTEu8], and transcription errors (misinterpretation of written/spoken orders and mistakes copying prescriptions) responsible for 2-14% of medication errors [@DhnNgERL].
 Additionally, these errors are not evenly distributed across medical information with some specific pieces of data having error rates as high as 26.9% [@184pUTqaA].
 
-While errors in patient data can have disastorous consequences for that patient, these mistakes can also have much more wide-ranging impact.
+While errors in patient data can have disastrous consequences for that patient, these mistakes can also have much more wide-ranging impact.
 Retrospective and prospective analysis of datasets derived from patient chart data make up a huge proportion of clinical research publications [@EJpntCLW,@UwDcTEu8].
 These datasets are often used to construct or update research databases that are re-used by large numbers of later studies. 
 Some of these databases may have error rates as high as 26.9% for some pieces of data [@184pUTqaA].
@@ -69,7 +69,7 @@ One recent high-profile example of this involved errors in the large and well-re
 These distorted study results have the potential to harm huge numbers of patients by contributing to incorrect changes in the standards of care.
 
 It is generally cheaper and easier to prevent the introduction of errors into data than to retrospectively attempt to correct the data.
-If we want to try and prevent these adverse medical and experimental outcomes we need to minimise the number of opportunites for error to be introduced.
+If we want to try and prevent these adverse medical and experimental outcomes we need to minimise the number of opportunities for error to be introduced.
 Humans, even well trained ones, are fallible.
 This means that the more individuals a piece of data passes through, the more likely it is to acquire errors.
 An intuitive example of this effect is that of the childhood "whisper game".
@@ -101,16 +101,16 @@ That researcher could make some accidental changes due to either user error or c
 This mangled data is then sent to another collaborator who introduces their own errors before finally being uploaded to a publication database having accumulated ordinality and errors.
 A pervasive example of this in the life sciences is the mangling of gene names through automated formatting of them as dates by Excel [@HkW6SMFg,@UOgYpEcx].
 These mangled names are then uploaded to central databases where they continue to proliferate as other researchers make use of them.
-This means, whether it is a physical or an IT system, it is vital to have a single authorative source that can only be changed in a restricted audited way.
+This means, whether it is a physical or an IT system, it is vital to have a single authoritative source that can only be changed in a restricted audited way.
 These datasets and any updates to them should be tracked using a version control system and be thoroughly backed-up in order to ensure data integrity.
-Indeed, this kind of data integrity and versioning requirements are enumerated in many national laws and regulations governing clinical trials and pharamceutical manufacture (e.g. US Federal Drug Association's 21CFR11).
+Indeed, this kind of data integrity and versioning requirements are enumerated in many national laws and regulations governing clinical trials and pharmaceutical manufacture (e.g. US Federal Drug Association's 21CFR11).
 
-While most researchers, hospital administrators, and clinicians will understand the idea of data ordinality, we believe explicitly codifying the idea will be useful in many areas of pratice and system design.
-Errors are invetible but by thinking about data ordinality, the utility of interventions that generate authoritative carefully controlled and preserved information sources becomes clear.
-A cconcept of data ordinality also makes it easier to identify dangerous practices that lead to the medical "whisper game" and so helps to mitigate these situations.
+While most researchers, hospital administrators, and clinicians will understand the idea of data ordinality, we believe explicitly codifying the idea will be useful in many areas of practice and system design.
+Errors are inevitable but by thinking about data ordinality, the utility of interventions that generate authoritative carefully controlled and preserved information sources becomes clear.
+A concept of data ordinality also makes it easier to identify dangerous practices that lead to the medical "whisper game" and so helps to mitigate these situations.
 Without a clear explicit conception of data ordinality it becomes much harder to build these ideas into the design of clinical systems and research protocols.
 The more difficult it is to design systems that take this into account, the more likely it is produce a system that causes data errors.
-Ultimately, we belive that the concept of data ordinality is a very useful mental framework that will help clinicians be more mindful of data in both practice and research.
+Ultimately, we believe that the concept of data ordinality is a very useful mental framework that will help clinicians be more mindful of data in both practice and research.
 
 
 ## References {.page_break_before}
