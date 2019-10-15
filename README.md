@@ -10,7 +10,7 @@
 
 <!-- usage note: edit this section. -->
 
-This repository contains the manuscript for a medical journal commentary introducting the idea of data ordinality. 
+This repository contains the manuscript for a medical journal commentary introducing the idea of data ordinality. 
 
 + **HTML manuscript** at https://fmaguire.github.io/data_ordinality_paper/
 + **PDF manuscript** at https://fmaguire.github.io/data_ordinality_paper/manuscript.pdf
