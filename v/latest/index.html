@@ -7,7 +7,7 @@
   <meta name="author" content="Finlay Maguire" />
   <meta name="author" content="Michael A. Graven" />
   <meta name="author" content="Noni E. MacDonald" />
-  <meta name="dcterms.date" content="2019-10-07" />
+  <meta name="dcterms.date" content="2019-10-15" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Data Ordinality: An Important Concept in Reducing Medical and Research Errors</title>
   <style>
@@ -24,7 +24,7 @@
 <header id="title-block-header">
 <h1 class="title">Data Ordinality: An Important Concept in Reducing Medical and Research Errors</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://fmaguire.github.io/data_ordinality_paper/v/20551e02eba049de5bdbe027a9378bc44fae7cf7/">permalink</a>) was automatically generated from <a href="https://github.com/fmaguire/data_ordinality_paper/tree/20551e02eba049de5bdbe027a9378bc44fae7cf7">fmaguire/data_ordinality_paper@20551e0</a> on October 7, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://fmaguire.github.io/data_ordinality_paper/v/c7fac03d7436e615ff9ae7bf84282fa9afa63a81/">permalink</a>) was automatically generated from <a href="https://github.com/fmaguire/data_ordinality_paper/tree/c7fac03d7436e615ff9ae7bf84282fa9afa63a81">fmaguire/data_ordinality_paper@c7fac03</a> on October 15, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Finlay Maguire</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/0000-0002-1203-9514">0000-0002-1203-9514</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/fmaguire">fmaguire</a> · <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" /> <a href="https://twitter.com/fmaguire">fmaguire</a><br> <small> Faculty of Computer Science, Dalhousie University · Funded by Donald Hill Family Fellowship in Computer Science </small></p></li>
@@ -33,23 +33,18 @@
 </ul>
 <h2 id="abstract" class="page_break_before">Abstract</h2>
 <h2 id="data-ordinality" class="page_break_before">Data Ordinality</h2>
-<p>//% of medical errors that are related to transcription //The majority of medical research is retrospective //The more times data is copied the more errors //Different types of data have different error rates //Easier to avoid errors than fix them //Humans are always going to make errors</p>
-<p>Adverse effects of medical treatment are responsible for 2.8% of all deaths in the US <span class="citation" data-cites="140XZkS8r">[<a href="#ref-140XZkS8r" role="doc-biblioref">1</a>]</span>. ICU patients experience an 1.7 medical errors a day of which 29% were errors classed as having the potential to cause severe harm or death <span class="citation" data-cites="wKBeXrtj">[<a href="#ref-wKBeXrtj" role="doc-biblioref">2</a>]</span> A major source of these adverse outcomes is errors in the transmission and communication of information between healthcare workers (HCW). For example, transcription errors (misinterpreation of written/spoken orders and mistakes copying prescriptions) are responsible for 2-14% of medication errors across a range of contexts <span class="citation" data-cites="DhnNgERL">[<a href="#ref-DhnNgERL" role="doc-biblioref">3</a>]</span>. Humans, even very well trained ones, are fallible. This means human error is inevitable.</p>
-<p>While errors in patient care can have disastorous consequences for that patient, these errors can and do propagate into clinical research. In some cases these errors distort the results of clinical trials leading harming potentially huge numbers of patients by leading to incorrect changes in the standards of care. Unfortunately, these errors aren’t evenly and randomly distributed across the entire dataset with some bits of data having discrepancy rates as high as 26.9% <span class="citation" data-cites="184pUTqaA">[<a href="#ref-184pUTqaA" role="doc-biblioref">4</a>]</span>. With some analyses showing that an error on a page greatly increased the risk of another error appearing on the same page <span class="citation" data-cites="184pUTqaA">[<a href="#ref-184pUTqaA" role="doc-biblioref">4</a>]</span>.</p>
-<p>The more times a piece of data is copied the more likely it is to have errors introduced. An intuitive example of this effect is that of the childhood “whisper game”. In this, a message is whispered from person to person down a line of people. Upon the last person in the line speaking the message aloud the message is typically drastically different from the original message. Each person listening and repeating this message allows the original information to become increasingly distorted and warped. Medical research is particularly affected by this especially as a significant quantity of all clinical research involves retrospective review of patient charts (1/4 of emergency medicine research studies <span class="citation" data-cites="EJpntCLW">[<a href="#ref-EJpntCLW" role="doc-biblioref">5</a>]</span>).</p>
+<p>Adverse effects of medical treatment are responsible for 2.8% of all deaths in the US <span class="citation" data-cites="140XZkS8r">[<a href="#ref-140XZkS8r" role="doc-biblioref">1</a>]</span>. A leading cause of these adverse medical outcomes is error in the transmission and communication of information between healthcare workers (HCW) []. These errors are very common, with manually entered pathology data having errors in 76% of patients records <span class="citation" data-cites="UwDcTEu8">[<a href="#ref-UwDcTEu8" role="doc-biblioref">2</a>]</span>, and transcription errors (misinterpreation of written/spoken orders and mistakes copying prescriptions) responsible for 2-14% of medication errors <span class="citation" data-cites="DhnNgERL">[<a href="#ref-DhnNgERL" role="doc-biblioref">3</a>]</span>. Additionally, these errors are not evenly distributed across medical information with some specific pieces of data having error rates as high as 26.9% <span class="citation" data-cites="184pUTqaA">[<a href="#ref-184pUTqaA" role="doc-biblioref">4</a>]</span>.</p>
+<p>While errors in patient data can have disastorous consequences for that patient, these mistakes can also have much more wide-ranging impact. Retrospective and prospective analysis of datasets derived from patient chart data make up a huge proportion of clinical research publications <span class="citation" data-cites="EJpntCLW">[<a href="#ref-EJpntCLW" role="doc-biblioref">5</a>]</span>. These datasets are often used to construct or update research databases that are re-used by large numbers of later studies. Some of these databases may have error rates as high as 26.9% for some pieces of data <span class="citation" data-cites="184pUTqaA">[<a href="#ref-184pUTqaA" role="doc-biblioref">4</a>]</span>. Therefore, the errors in this clinical data (whether introduced in the underlying patient data or in the later extraction and cleaning) can and likely does lead to incorrect erroneous study outcomes <span class="citation" data-cites="r2B04jOT">[<a href="#ref-r2B04jOT" role="doc-biblioref">6</a>]</span>. One recent high-profile example of this involved errors in the large and well-respected UK Biobank database <span class="citation" data-cites="xSLvif2A">[<a href="#ref-xSLvif2A" role="doc-biblioref">7</a>]</span>. These distorted study results have the potential to harm huge numbers of patients by contributing to incorrect changes in the standards of care.</p>
+<p>It is generally cheaper and easier to prevent the introduction of errors into data than to retrospectively attempt to correct the data. If we want to try and prevent these adverse medical and experimental outcomes we need to minimise the number of opportunites for error to be introduced. Humans, even well trained ones, are fallible. This means that the more individuals a piece of data passes through, the more likely it is to acquire errors. An intuitive example of this effect is that of the childhood “whisper game”. In this, a message is whispered from person to person down a line of people. Upon the last person in the line speaking the message aloud the message is typically drastically different from the original message. Each person listening and repeating this message allows the original information to become increasingly distorted and warped. Medical information, which requires shared between large networks of HCWs over extended periods of times is thus particularly prone to these distortions. Therefore, minimising the number of error-prone human links in these chains is the best way to mitigate the errors.</p>
 <p>To help researchers and clinicians understand and conceptualise this we present the principle of “data ordinality”.<br />
-Ordinality is a term used in maths to denote the order of objects within a sequence, e.g., 1st, 2nd, 3rd.<br />
-We can apply this idea to data, by using it describe how many times a piece of data has been manually entered or written down. For example, 1st order data would be data that has been directly extracted or printed out from a device such as a digital thermometer.<br />
-When this temperate is written down by a HCW into a patient’s chart it would now be 2nd order data. Finally, when a researcher extracts this temperature from the chart it is now 3rd order data. In our intuitive example, data ordinality would be the number of whisper events in the game of telephone/whisper. Errors increase as data ordinality increases, much as the distortion of the message becomes greater the more people are playing the whisper game.</p>
-<p>This is an analogous generalisation of the concept of historigraphical primary, secondary, and tertiary sources.</p>
+Ordinality is a term used in mathematics to denote the order of objects within an ordered sequence, e.g., 1st, 2nd, 3rd.<br />
+We can apply this idea to data, by using it describe how many times a piece of data has been manually recorded or entered into a system. For example, 1st order data would be data that has been directly extracted or printed out from a device such as a digital thermometer.<br />
+When this temperate is written down by a HCW into a patient’s chart it would now be 2nd order data. Finally, when a researcher extracts this temperature from the chart it is now 3rd order data. In our intuitive example, data ordinality would be the number of times the message is whispered between individuals in the game of telephone/whisper. Errors increase as data ordinality increases, much as the distortion of the message becomes greater the more people are playing the whisper game.</p>
 <figure>
 <img src="images/error_prop.png" id="fig:errorprop" alt="" /><figcaption><span>Figure 1:</span> Propagation of Error with Data Ordinality. Assuming an arbitrary uniform 5% chance of error in the copying of each data-point at each stage of copying. In reality different pieces of data and different stages will have drastically different error rates.</figcaption>
 </figure>
-<p>One way to reduce data ordinality is the adoption of clinical information technology (IT) such as electronic health records, electronic prescription systems etc. The adoption of these systems have been shown to reduce hospitality mortality, complications, and costs <span class="citation" data-cites="1DvlBqvBW">[<a href="#ref-1DvlBqvBW" role="doc-biblioref">6</a>]</span>. However, just because data has been entered into a computer does not mean its ordinality cannot still increase. A dataset can be sent to one researcher, who then makes some accidental changes due to either user error or computer glitches (partial data transfer, bugs, automated reformatting).</p>
-<p>Typically, it is always easier and cheaper to prevent errors and adverse situations than to retroactively attempt to fix them.</p>
-<p>A pervasive example of this in the life sciences is the mangling of gene names through automated formatting of them as dates by Excel <span class="citation" data-cites="HkW6SMFg">[<a href="#ref-HkW6SMFg" role="doc-biblioref">8</a>]</span>. These mangled names are then uploaded to central databases where they continue to proliferate as other researchers make use of them.</p>
-<p>Data ordinality can be controlled by having a single authoritative source copy of any dataset with restricted audited ability to change it. This dataset and any updates to it should be tracked using a version control system and kept thoroughly backed-up in order to maintain data integrity. Indeed, these are a requirements enumerated in many national laws and regulations governing clinical trials and pharamceutical manufacture (e.g. US Federal Drug Association’s 21CFR11).</p>
-<p>Ultimately, we belive that the concept of data ordinality is a useful mental framework that clinicians should be mindful of in both practice and research.</p>
+<p>An effective way to reduce data ordinality is the adoption of clinical information technology (IT) such as electronic health records, electronic prescription systems, and so on. The adoption of systems like this have been shown to reduce hospital-related morbidity, mortality, and costs <span class="citation" data-cites="1DvlBqvBW">[<a href="#ref-1DvlBqvBW" role="doc-biblioref">8</a>]</span>. With immediate input of data into these systems, ideally directly from the medical equipment, we can greatly reduce data ordinality because any subsequent user of the information can access it on the database. No matter how many people need access to the data it will not require being repeatedly transcribed as it would for a piece of data only recorded on paper. It is, however, not sufficient to just enter the information into any digital form as without planning the ordinality of digital data can still increase. For example, a dataset could be entered into a spreadsheet, shared with one researcher. That researcher could make some accidental changes due to either user error or computer glitches (partial data transfer, bugs, automated reformatting). This mangled data is then sent to another collaborator who introduces their own errors before finally being uploaded to a publication database having accumulated ordinality and errors. A pervasive example of this in the life sciences is the mangling of gene names through automated formatting of them as dates by Excel <span class="citation" data-cites="HkW6SMFg">[<a href="#ref-HkW6SMFg" role="doc-biblioref">10</a>]</span>. These mangled names are then uploaded to central databases where they continue to proliferate as other researchers make use of them. This means, whether it is a physical or an IT system, it is vital to have a single authorative source that can only be changed in a restricted audited way. These datasets and any updates to them should be tracked using a version control system and be thoroughly backed-up in order to ensure data integrity. Indeed, this kind of data integrity and versioning requirements are enumerated in many national laws and regulations governing clinical trials and pharamceutical manufacture (e.g. US Federal Drug Association’s 21CFR11).</p>
+<p>While most researchers, hospital administrators, and clinicians will understand the idea of data ordinality, we believe explicitly codifying the idea will be useful in many areas of pratice and system design. Errors are invetible but by thinking about data ordinality, the utility of interventions that generate authoritative carefully controlled and preserved information sources becomes clear. A cconcept of data ordinality also makes it easier to identify dangerous practices that lead to the medical “whisper game” and so helps to mitigate these situations. Without a clear explicit conception of data ordinality it becomes much harder to build these ideas into the design of clinical systems and research protocols. The more difficult it is to design systems that take this into account, the more likely it is produce a system that causes data errors. Ultimately, we belive that the concept of data ordinality is a very useful mental framework that will help clinicians be more mindful of data in both practice and research.</p>
 <h2 id="references" class="page_break_before">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" role="doc-bibliography">
@@ -59,11 +54,11 @@ Jacob E. Sunshine, Nicholas Meo, Nicholas J. Kassebaum, Michael L. Collison, Ali
 <em>JAMA Network Open</em> (2019-01-18) <a href="https://doi.org/gf9gds">https://doi.org/gf9gds</a><br />
 DOI: <a href="https://doi.org/10.1001/jamanetworkopen.2018.7041">10.1001/jamanetworkopen.2018.7041</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30657530">30657530</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6484545">PMC6484545</a></p>
 </div>
-<div id="ref-wKBeXrtj">
-<p>2. <strong>A look into the nature and causes of human errors in the intensive care unit</strong><br />
-Yoel Donchin, Daniel Gopher, Miriam Olin, Yehuda Badihi, Michal RNB Biesky, Charles L. Sprung, Ruven Pizov, Shamay Cotev<br />
-<em>Critical Care Medicine</em> (1995-02) <a href="https://doi.org/fmndxj">https://doi.org/fmndxj</a><br />
-DOI: <a href="https://doi.org/10.1097/00003246-199502000-00015">10.1097/00003246-199502000-00015</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/7867355">7867355</a></p>
+<div id="ref-UwDcTEu8">
+<p>2. <strong>Error rates in a clinical data repository: lessons from the transition to electronic data transfer–a descriptive study.</strong><br />
+Matthew KH Hong, Henry HI Yao, John S Pedersen, Justin S Peters, Anthony J Costello, Declan G Murphy, Christopher M Hovens, Niall M Corcoran<br />
+<em>BMJ open</em> (2013-05-28) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23793682">https://www.ncbi.nlm.nih.gov/pubmed/23793682</a><br />
+DOI: <a href="https://doi.org/10.1136/bmjopen-2012-002406">10.1136/bmjopen-2012-002406</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23793682">23793682</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3657671">PMC3657671</a></p>
 </div>
 <div id="ref-DhnNgERL">
 <p>3. <strong>Drug-Related Problems in Hospitals</strong><br />
@@ -83,26 +78,38 @@ EH Gilbert, SR Lowenstein, J Koziol-McLain, DC Barta, J Steiner<br />
 <em>Annals of emergency medicine</em> (1996-03) <a href="https://www.ncbi.nlm.nih.gov/pubmed/8599488">https://www.ncbi.nlm.nih.gov/pubmed/8599488</a><br />
 DOI: <a href="https://doi.org/10.1016/s0196-0644(96)70264-0">10.1016/s0196-0644(96)70264-0</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/8599488">8599488</a></p>
 </div>
+<div id="ref-r2B04jOT">
+<p>6. <strong>Modelling of errors in databases.</strong><br />
+Steve Gallivan, Christina Pagel<br />
+<em>Health care management science</em> (2008-03) <a href="https://www.ncbi.nlm.nih.gov/pubmed/18390166">https://www.ncbi.nlm.nih.gov/pubmed/18390166</a><br />
+PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18390166">18390166</a></p>
+</div>
+<div id="ref-xSLvif2A">
+<p>7. <strong>Retraction Note: CCR5-∆32 is deleterious in the homozygous state in humans</strong><br />
+Xinzhu Wei, Rasmus Nielsen<br />
+<em>Nature Medicine</em> (2019-10-08) <a href="https://doi.org/gf9vtb">https://doi.org/gf9vtb</a><br />
+DOI: <a href="https://doi.org/10.1038/s41591-019-0637-6">10.1038/s41591-019-0637-6</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31595084">31595084</a></p>
+</div>
 <div id="ref-1DvlBqvBW">
-<p>6. <strong>Clinical Information Technologies and Inpatient Outcomes</strong><br />
+<p>8. <strong>Clinical Information Technologies and Inpatient Outcomes</strong><br />
 Ruben Amarasingham, Laura Plantinga, Marie Diener-West, Darrell J. Gaskin, Neil R. Powe<br />
 <em>Archives of Internal Medicine</em> (2009-01-26) <a href="https://doi.org/bzmhbp">https://doi.org/bzmhbp</a><br />
 DOI: <a href="https://doi.org/10.1001/archinternmed.2008.520">10.1001/archinternmed.2008.520</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19171805">19171805</a></p>
 </div>
 <div id="ref-X1io6jjf">
-<p>7. <strong>Does the Leapfrog program help identify high-quality hospitals?</strong><br />
+<p>9. <strong>Does the Leapfrog program help identify high-quality hospitals?</strong><br />
 Ashish K Jha, E John Orav, Abigail B Ridgway, Jie Zheng, Arnold M Epstein<br />
 <em>Joint Commission journal on quality and patient safety</em> (2008-06) <a href="https://www.ncbi.nlm.nih.gov/pubmed/18595377">https://www.ncbi.nlm.nih.gov/pubmed/18595377</a><br />
 PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18595377">18595377</a></p>
 </div>
 <div id="ref-HkW6SMFg">
-<p>8. <strong>Gene name errors are widespread in the scientific literature</strong><br />
+<p>10. <strong>Gene name errors are widespread in the scientific literature</strong><br />
 Mark Ziemann, Yotam Eren, Assam El-Osta<br />
 <em>Genome Biology</em> (2016-08-23) <a href="https://doi.org/bqt3">https://doi.org/bqt3</a><br />
 DOI: <a href="https://doi.org/10.1186/s13059-016-1044-7">10.1186/s13059-016-1044-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27552985">27552985</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4994289">PMC4994289</a></p>
 </div>
 <div id="ref-UOgYpEcx">
-<p>9. <br />
+<p>11. <br />
 Barry R Zeeberg, Joseph Riss, David W Kane, Kimberly J Bussey, Edward Uchio, W Marston Linehan, J Carl Barrett, John N Weinstein<br />
 <em>BMC Bioinformatics</em> (2004) <a href="https://doi.org/fcvtjq">https://doi.org/fcvtjq</a><br />
 DOI: <a href="https://doi.org/10.1186/1471-2105-5-80">10.1186/1471-2105-5-80</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15214961">15214961</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC459209">PMC459209</a></p>
