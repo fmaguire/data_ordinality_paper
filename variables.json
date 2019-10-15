@@ -6,7 +6,7 @@
       "name": "Finlay Maguire",
       "initials": "fm",
       "orcid": "0000-0002-1203-9514",
-      "twitter": "fmaguire",
+      "twitter": "finlaym",
       "email": "finlaymaguire@gmail.com",
       "affiliations": [
         "Faculty of Computer Science, Dalhousie University"
@@ -54,11 +54,11 @@
     "repo_slug": "fmaguire/data_ordinality_paper",
     "repo_owner": "fmaguire",
     "repo_name": "data_ordinality_paper",
-    "commit": "7614ffafd8fc53883eeb97669e2b162214954635",
-    "triggering_commit": "7614ffafd8fc53883eeb97669e2b162214954635",
-    "build_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/builds/131894565",
-    "job_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/jobs/245664766",
-    "manuscript_url": "https://fmaguire.github.io/data_ordinality_paper/v/7614ffafd8fc53883eeb97669e2b162214954635/"
+    "commit": "e9de2f53d637d393cefbc6f81d4abdadd1773bc5",
+    "triggering_commit": "e9de2f53d637d393cefbc6f81d4abdadd1773bc5",
+    "build_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/builds/131894705",
+    "job_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/jobs/245665063",
+    "manuscript_url": "https://fmaguire.github.io/data_ordinality_paper/v/e9de2f53d637d393cefbc6f81d4abdadd1773bc5/"
   },
   "manuscript_stats": {
     "reference_counts": {

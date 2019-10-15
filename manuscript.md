@@ -19,9 +19,9 @@ title: 'Data Ordinality: An Important Concept in Reducing Medical and Research E
 
 <small><em>
 This manuscript
-([permalink](https://fmaguire.github.io/data_ordinality_paper/v/7614ffafd8fc53883eeb97669e2b162214954635/))
+([permalink](https://fmaguire.github.io/data_ordinality_paper/v/e9de2f53d637d393cefbc6f81d4abdadd1773bc5/))
 was automatically generated
-from [fmaguire/data_ordinality_paper@7614ffa](https://github.com/fmaguire/data_ordinality_paper/tree/7614ffafd8fc53883eeb97669e2b162214954635)
+from [fmaguire/data_ordinality_paper@e9de2f5](https://github.com/fmaguire/data_ordinality_paper/tree/e9de2f53d637d393cefbc6f81d4abdadd1773bc5)
 on October 15, 2019.
 </em></small>
 
@@ -35,7 +35,7 @@ on October 15, 2019.
     · ![GitHub icon](images/github.svg){.inline_icon}
     [fmaguire](https://github.com/fmaguire)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [fmaguire](https://twitter.com/fmaguire)<br>
+    [finlaym](https://twitter.com/finlaym)<br>
   <small>
      Faculty of Computer Science, Dalhousie University
      · Funded by Donald Hill Family Fellowship in Computer Science
