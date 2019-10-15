@@ -19,9 +19,9 @@ title: 'Data Ordinality: An Important Concept in Reducing Medical and Research E
 
 <small><em>
 This manuscript
-([permalink](https://fmaguire.github.io/data_ordinality_paper/v/17d92f08babc613bb5062f616d7e03ad4cccdaa6/))
+([permalink](https://fmaguire.github.io/data_ordinality_paper/v/90f38c3bce25cbf850d071d4c45a0c410cfbda2c/))
 was automatically generated
-from [fmaguire/data_ordinality_paper@17d92f0](https://github.com/fmaguire/data_ordinality_paper/tree/17d92f08babc613bb5062f616d7e03ad4cccdaa6)
+from [fmaguire/data_ordinality_paper@90f38c3](https://github.com/fmaguire/data_ordinality_paper/tree/90f38c3bce25cbf850d071d4c45a0c410cfbda2c)
 on October 15, 2019.
 </em></small>
 
@@ -53,11 +53,6 @@ on October 15, 2019.
 
 
 
-## Abstract {.page_break_before}
-
-
-
-
 ## Data Ordinality {.page_break_before}
 
 Adverse effects of medical treatment are responsible for 2.8% of all deaths in the US [@140XZkS8r].
@@ -84,8 +79,8 @@ Each person listening and repeating this message allows the original information
 Medical information, which requires shared between large networks of HCWs over extended periods of times is thus particularly prone to these distortions.
 Therefore, minimising the number of error-prone human links in these chains is the best way to mitigate the errors.
 
-To help researchers and clinicians understand and conceptualise this we present the principle of "data ordinality".  
-Ordinality is a term used in mathematics to denote the order of objects within an ordered sequence, e.g., 1st, 2nd, 3rd.  
+To help researchers and clinicians understand and conceptualise this we present the principle of "data ordinality".
+Ordinality is a term used in mathematics to denote the order of objects within an ordered sequence, e.g., 1st, 2nd, 3rd.
 We can apply this idea to data, by using it describe how many times a piece of data has been manually recorded or entered into a system.
 For example, 1st order data would be data that has been directly extracted or printed out from a device such as a digital thermometer.  
 When this temperate is written down by a HCW into a patient’s chart it would now be 2nd order data. 
@@ -99,6 +94,7 @@ An effective way to reduce data ordinality is the adoption of clinical informati
 The adoption of systems like this have been shown to reduce hospital-related morbidity, mortality, and costs [@1DvlBqvBW,@X1io6jjf].
 With immediate input of data into these systems, ideally directly from the medical equipment, we can greatly reduce data ordinality because any subsequent user of the information can access it on the database.
 No matter how many people need access to the data it will not require being repeatedly transcribed as it would for a piece of data only recorded on paper.
+
 It is, however, not sufficient to just enter the information into any digital form as without planning the ordinality of digital data can still increase.
 For example, a dataset could be entered into a spreadsheet, shared with one researcher.
 That researcher could make some accidental changes due to either user error or computer glitches (partial data transfer, bugs, automated reformatting).

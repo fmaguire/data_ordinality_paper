@@ -54,11 +54,11 @@
     "repo_slug": "fmaguire/data_ordinality_paper",
     "repo_owner": "fmaguire",
     "repo_name": "data_ordinality_paper",
-    "commit": "17d92f08babc613bb5062f616d7e03ad4cccdaa6",
-    "triggering_commit": "17d92f08babc613bb5062f616d7e03ad4cccdaa6",
-    "build_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/builds/131894098",
-    "job_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/jobs/245663689",
-    "manuscript_url": "https://fmaguire.github.io/data_ordinality_paper/v/17d92f08babc613bb5062f616d7e03ad4cccdaa6/"
+    "commit": "90f38c3bce25cbf850d071d4c45a0c410cfbda2c",
+    "triggering_commit": "90f38c3bce25cbf850d071d4c45a0c410cfbda2c",
+    "build_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/builds/131894308",
+    "job_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/jobs/245664160",
+    "manuscript_url": "https://fmaguire.github.io/data_ordinality_paper/v/90f38c3bce25cbf850d071d4c45a0c410cfbda2c/"
   },
   "manuscript_stats": {
     "reference_counts": {
@@ -66,6 +66,6 @@
       "pmid": 5,
       "total": 12
     },
-    "word_count": 1365
+    "word_count": 1362
   }
 }
