@@ -19,9 +19,9 @@ title: 'Data Ordinality: An Important Concept in Reducing Medical and Research E
 
 <small><em>
 This manuscript
-([permalink](https://fmaguire.github.io/data_ordinality_paper/v/49511745bc67541264823faa13500493946e9b22/))
+([permalink](https://fmaguire.github.io/data_ordinality_paper/v/17d92f08babc613bb5062f616d7e03ad4cccdaa6/))
 was automatically generated
-from [fmaguire/data_ordinality_paper@4951174](https://github.com/fmaguire/data_ordinality_paper/tree/49511745bc67541264823faa13500493946e9b22)
+from [fmaguire/data_ordinality_paper@17d92f0](https://github.com/fmaguire/data_ordinality_paper/tree/17d92f08babc613bb5062f616d7e03ad4cccdaa6)
 on October 15, 2019.
 </em></small>
 
@@ -61,7 +61,7 @@ on October 15, 2019.
 ## Data Ordinality {.page_break_before}
 
 Adverse effects of medical treatment are responsible for 2.8% of all deaths in the US [@140XZkS8r].
-A leading cause of these adverse medical outcomes is error in the transmission and communication of information between healthcare workers (HCW) [@1EgScuf8f].
+A major cause of these adverse medical outcomes is error in the transmission and communication of information between healthcare workers (HCW) [@1EgScuf8f].
 These errors are very common, with manually entered pathology data having errors in 76% of patients records [@UwDcTEu8], and transcription errors (misinterpreation of written/spoken orders and mistakes copying prescriptions) responsible for 2-14% of medication errors [@DhnNgERL].
 Additionally, these errors are not evenly distributed across medical information with some specific pieces of data having error rates as high as 26.9% [@184pUTqaA].
 
