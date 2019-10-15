@@ -1,4 +1,4 @@
-# Automated scholarly manuscripts on GitHub
+# Data ordinality commentary 
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
@@ -10,8 +10,10 @@
 
 <!-- usage note: edit this section. -->
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+This repository contains the manuscript for a medical journal commentary introducting the idea of data ordinality. 
+
++ **HTML manuscript** at https://fmaguire.github.io/data_ordinality_paper/
++ **PDF manuscript** at https://fmaguire.github.io/data_ordinality_paper/manuscript.pdf
 
 ## Manubot
 
