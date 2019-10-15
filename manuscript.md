@@ -19,9 +19,9 @@ title: 'Data Ordinality: An Important Concept in Reducing Medical and Research E
 
 <small><em>
 This manuscript
-([permalink](https://fmaguire.github.io/data_ordinality_paper/v/90f38c3bce25cbf850d071d4c45a0c410cfbda2c/))
+([permalink](https://fmaguire.github.io/data_ordinality_paper/v/09682846809bc2a34141ea0ed2e9415f6c9b7b48/))
 was automatically generated
-from [fmaguire/data_ordinality_paper@90f38c3](https://github.com/fmaguire/data_ordinality_paper/tree/90f38c3bce25cbf850d071d4c45a0c410cfbda2c)
+from [fmaguire/data_ordinality_paper@0968284](https://github.com/fmaguire/data_ordinality_paper/tree/09682846809bc2a34141ea0ed2e9415f6c9b7b48)
 on October 15, 2019.
 </em></small>
 

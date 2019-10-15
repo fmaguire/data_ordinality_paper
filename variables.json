@@ -54,11 +54,11 @@
     "repo_slug": "fmaguire/data_ordinality_paper",
     "repo_owner": "fmaguire",
     "repo_name": "data_ordinality_paper",
-    "commit": "90f38c3bce25cbf850d071d4c45a0c410cfbda2c",
-    "triggering_commit": "90f38c3bce25cbf850d071d4c45a0c410cfbda2c",
-    "build_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/builds/131894308",
-    "job_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/jobs/245664160",
-    "manuscript_url": "https://fmaguire.github.io/data_ordinality_paper/v/90f38c3bce25cbf850d071d4c45a0c410cfbda2c/"
+    "commit": "09682846809bc2a34141ea0ed2e9415f6c9b7b48",
+    "triggering_commit": "09682846809bc2a34141ea0ed2e9415f6c9b7b48",
+    "build_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/builds/131894462",
+    "job_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/jobs/245664494",
+    "manuscript_url": "https://fmaguire.github.io/data_ordinality_paper/v/09682846809bc2a34141ea0ed2e9415f6c9b7b48/"
   },
   "manuscript_stats": {
     "reference_counts": {
