@@ -1,5 +1,5 @@
 {
-  "date": "October 15, 2019",
+  "date": "October 17, 2019",
   "authors": [
     {
       "github": "fmaguire",
@@ -54,11 +54,11 @@
     "repo_slug": "fmaguire/data_ordinality_paper",
     "repo_owner": "fmaguire",
     "repo_name": "data_ordinality_paper",
-    "commit": "e9de2f53d637d393cefbc6f81d4abdadd1773bc5",
-    "triggering_commit": "e9de2f53d637d393cefbc6f81d4abdadd1773bc5",
-    "build_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/builds/131894705",
-    "job_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/jobs/245665063",
-    "manuscript_url": "https://fmaguire.github.io/data_ordinality_paper/v/e9de2f53d637d393cefbc6f81d4abdadd1773bc5/"
+    "commit": "ec0cbfa9c465276766af9854d646cb3bf065a3a8",
+    "triggering_commit": "ec0cbfa9c465276766af9854d646cb3bf065a3a8",
+    "build_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/builds/132380667",
+    "job_url": "https://travis-ci.com/fmaguire/data_ordinality_paper/jobs/246761262",
+    "manuscript_url": "https://fmaguire.github.io/data_ordinality_paper/v/ec0cbfa9c465276766af9854d646cb3bf065a3a8/"
   },
   "manuscript_stats": {
     "reference_counts": {
@@ -66,6 +66,6 @@
       "pmid": 5,
       "total": 12
     },
-    "word_count": 1362
+    "word_count": 1284
   }
 }
