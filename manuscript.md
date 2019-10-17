@@ -19,9 +19,9 @@ title: 'Data Ordinality: An Important Concept in Reducing Medical and Research E
 
 <small><em>
 This manuscript
-([permalink](https://fmaguire.github.io/data_ordinality_paper/v/ec0cbfa9c465276766af9854d646cb3bf065a3a8/))
+([permalink](https://fmaguire.github.io/data_ordinality_paper/v/9d6ebf6f4710528db2aa2d81464de76324c139d7/))
 was automatically generated
-from [fmaguire/data_ordinality_paper@ec0cbfa](https://github.com/fmaguire/data_ordinality_paper/tree/ec0cbfa9c465276766af9854d646cb3bf065a3a8)
+from [fmaguire/data_ordinality_paper@9d6ebf6](https://github.com/fmaguire/data_ordinality_paper/tree/9d6ebf6f4710528db2aa2d81464de76324c139d7)
 on October 17, 2019.
 </em></small>
 
@@ -63,7 +63,7 @@ While errors in patient data can have disastrous consequences for that patient, 
 Retrospective and prospective analysis of datasets derived from patient chart data make up a huge proportion of clinical research publications [@EJpntCLW,@UwDcTEu8].
 These datasets are often used to construct or update research databases that are then re-used by large numbers of later studies. 
 Observed error rates of individual entries in clinical research databases have ranged from 2.3% to 26.9% [@184pUTqaA].
-Therefore, the errors in this clinical data (whether introduced in the underlying patient data or in the later extraction and cleaning) can and likely does lead to incorrect erroneous study outcomes [@r2B04jOT].
+Therefore, the errors in this clinical data (whether introduced in the underlying patient data or in the later extraction and cleaning) can and likely does lead to erroneous study outcomes [@r2B04jOT].
 One recent high-profile example of this involved errors in the large and well-respected UK Biobank database [@xSLvif2A].
 These distorted study results have the potential to harm huge numbers of patients by contributing to incorrect changes in the standards of care.
 
@@ -81,7 +81,7 @@ Therefore, minimising the number of error-prone human links in these chains of d
 To help researchers and clinicians understand and conceptualise this we present the idea of "data ordinality".
 Ordinality is a mathematical term denoting the order of objects within a sequence, e.g., 1st, 2nd, 3rd.
 We can apply this idea to data, by using it describe how many times a piece of data has been manually recorded or entered into a system.
-For example, 1st order data would be data that has been directly extracted or printed out from a device such as a digital thermometer.  
+For example, 1st order data would be data that has been directly extracted or printed out from a device such as a digital thermometer.
 When this temperature is written down by a HCW into a patient’s chart it would now be 2nd order data. 
 Finally, when a researcher extracts this temperature from the chart it is now 3rd order data.
 In our intuitive example, data ordinality would increase every time one person whispers the message to the next person. 
@@ -91,7 +91,7 @@ Errors increase as data ordinality increases, much as the distortion of the mess
 
 An effective way to reduce data ordinality is the adoption of clinical information technology (IT) such as electronic health records, electronic prescription systems, and so on.
 The adoption of systems like this have been shown to reduce hospital-related morbidity, mortality, and costs [@1DvlBqvBW,@X1io6jjf].
-With immediate input of data into these systems, ideally directly from the medical equipment, we can greatly reduce data ordinality because any subsequent user of the information can access it on the database.
+With immediate input of data into these systems, ideally directly from the medical equipment, we can greatly reduce data ordinality because all subsequent users of the information can access the original information on the database. 
 
 It is, however, not sufficient to just enter the information into any digital format.
 Without careful planning the ordinality and thus error rate of digital data can still increase.
@@ -108,7 +108,7 @@ While most researchers, hospital administrators, and clinicians will understand 
 Errors are inevitable but by thinking about data ordinality the utility of interventions that generate authoritative carefully controlled and preserved information sources becomes clear.
 A conception of data ordinality also makes it much easier to identify dangerous practices that lead to the medical "whisper game".
 Without this concept it is much harder to build these ideas into the design of clinical systems and research protocols.
-Ultimately, we believe that the concept of data ordinality is a very useful mental framework that will help clinicians be more mindful of data in both practice and research.
+Ultimately, we believe that the concept of data ordinality is a very useful mental framework that will help clinicians be more mindful of data provenance in both practice and research.
 
 
 ## References {.page_break_before}
